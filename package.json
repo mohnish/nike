@@ -1,0 +1,30 @@
+{
+  "author": "Mohnish Thallavajhula",
+  "main": "app.js",
+  "keywords": [
+    "todo",
+    "nike",
+    "do-it"
+  ],
+  "description": "A simple todo list application",
+  "name": "nike",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "test": "make test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "*",
+    "jade": "*",
+    "redis": "*",
+    "hiredis": "*"
+  },
+  "devDependencies": {
+    "supertest": "*",
+    "mocha": "*",
+    "should": "*",
+    "node-dev": "*"
+  }
+}
