@@ -42,7 +42,7 @@ Nike has a RESTful API that supports CRUD operations on users and their todos.
 
 - Client
 	- Implement it the way you want. The client is just a UI to interact with the server. You can either use the one I wrote or if you think you can write a better one, that's even better.
-	- The default client that ships with the code is written using BackboneJS.
+	- The default client that ships with the code is written using AngularJS.
 	- You can use EmberJS or Knockout or even plain old jQuery to implement your client.
 
 ### Development
