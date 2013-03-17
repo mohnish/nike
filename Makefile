@@ -16,4 +16,7 @@ watch:
 serve:
 	@./node_modules/.bin/node-dev app
 
+debug:
+	@node --debug app
+
 .PHONY: test watch
