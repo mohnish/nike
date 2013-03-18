@@ -9,19 +9,19 @@ Nike has a RESTful API that supports CRUD operations on users and their todos.
 
 #### TODO
 
-- Retrieve all the user's todos: `GET /user/:userId/todos`.
+- Retrieve all the user's todos: `GET /users/:userId/todos`.
 
-- Retrieve a single todo: `GET /user/:userId/todos/:todoId`.
+- Retrieve a single todo: `GET /users/:userId/todos/:todoId`.
 
-- Create a todo: `POST /user/:userId/todos`.
+- Create a todo: `POST /users/:userId/todos`.
 - - Allowed params: `content`, `status`.
 - - Request payload: `{content: 'your todo content', status: 'whatever your client uses'}`.
 
-- Update a todo: `PATCH /user/:userId/todos/:todoId`.
+- Update a todo: `PATCH /users/:userId/todos/:todoId`.
 - - Allowed params: `status`, `content`.
 - - Request payload: `{status: 'your updated status', content: 'your updated content'}`.
 
-- Delete a todo: `DELETE /user/:userId/todos/:todoId`.
+- Delete a todo: `DELETE /users/:userId/todos/:todoId`.
 
 #### USER
 
