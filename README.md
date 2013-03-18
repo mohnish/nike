@@ -48,7 +48,7 @@ Nike has a RESTful API that supports CRUD operations on users and their todos.
 - Implement it the way you want. The client is just a UI to interact with the server. You can either use the one I wrote or if you think you can write a better one, go for it.
 - The default client that ships with the code is written using AngularJS.
 - You can use EmberJS or Knockout or even plain old jQuery to implement your client.
-- The reason the `Todo` object has a status and not a `done` (true|false) attribute is to allow the client developers to have the freedom to use the todos the way they want to. Since `status` is a string, it have whatever values you want. For example, `status` can be used to
+- The reason the `Todo` object has a status and not a `done` (true|false) attribute is to allow the client developers to have the freedom to use the todos the way they want to. Since `status` is a string, it can have whatever values you want. For example, `status` can be used to
 
 ### Development
 
